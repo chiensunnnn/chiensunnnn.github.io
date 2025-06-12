@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!-- 文档类型声明，指定为HTML5 -->
+<html lang="zh-CN"> <!-- HTML根元素，设置语言为中文 -->
+<head> <!-- 头部信息开始 -->
+    <meta charset="UTF-8"> <!-- 设置字符编码为UTF-8，支持中文等多语言字符 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 视口设置，使网页在移动设备上正确显示 -->
+    <title>对对队小组官网 - DDD</title> <!-- 网页标题，显示在浏览器标签页上 -->
+    <link rel="stylesheet" href="styles.css"> <!-- 链接外部CSS样式表 -->
+    <link rel="icon" href="favicon.ico"> <!-- 设置网站图标 -->
+</head> <!-- 头部信息结束 -->
+<body> <!-- 网页主体内容开始 -->
+    <!-- 页面头部区域 -->
+    <header> <!-- 网站头部导航区域 -->
+        <div class="logo-container"> <!-- Logo容器 -->
+            <img src="images/logo.png" alt="DDD Logo" class="logo-image"> <!-- Logo图片 -->
+            <h1>对对队</h1> <!-- 网站名称 -->
+        </div>
+        <nav> <!-- 导航菜单 -->
+            <ul> <!-- 无序列表，包含导航链接 -->
+                <li><a href="#home" class="active">首页</a></li> <!-- 首页链接，默认激活状态 -->
+                <li><a href="#about">关于我们</a></li> <!-- 关于我们链接 -->
+                <li><a href="#team">团队成员</a></li> <!-- 团队成员链接 -->
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!-- 主要内容区域 -->
+        <!-- 首页/英雄区域 -->
+        <section id="home" class="hero-section"> <!-- 首页区域，使用ID便于导航定位 -->
+            <div class="hero-content"> <!-- 英雄区域内容容器 -->
+                <h2>欢迎来到对对队小组官网</h2> <!-- 主标题 -->
+                <p>我们的口号是：对对队，你说的都对</p> <!-- 副标题/简介 -->
+                <button class="cta-button">了解更多</button> <!-- 号召性按钮(Call to Action) -->
+            </div>
+        </section>
+
+        <!-- 关于我们区域 -->
+        <section id="about" class="section"> <!-- 关于我们区域，使用ID便于导航定位 -->
+            <div class="container"> <!-- 内容容器，控制宽度 -->
+                <h2 class="section-title">关于我们</h2> <!-- 区域标题 -->
+                <div class="about-content"> <!-- 关于我们内容容器 -->
+                    <div class="about-text"> <!-- 文字介绍部分 -->
+                        <p>1. 目标一致：所有成员需清晰理解并认同团队共同目标，个人工作需服务于团队整体目标的实现。</p> <!-- 团队介绍段落 -->
+                        <p>2. 相互尊重：尊重每位成员的背景、观点、工作风格和贡献。沟通中保持礼貌、耐心。 </p> <!-- 使命介绍段落 -->
+                        <p>3.主动担当：对自己的职责和承诺负责，积极主动地推进工作，遇到问题及时沟通寻求解决方案。 </p> <!-- 价值观介绍段落 -->
+                        <p>4. 持续改进：鼓励反思，乐于接受建设性反馈，并积极寻求个人和团队协作方式的优化。 </p>
+                    </div>
+                    <div class="about-image"> <!-- 关于我们图片区域，实际项目中可放置团队照片 -->
+                        <!-- 这里可以放置团队照片或相关图片 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 团队成员区域 -->
+        <section id="team" class="section"> <!-- 团队成员区域，使用ID便于导航定位 -->
+            <div class="container"> <!-- 内容容器，控制宽度 -->
+                <h2 class="section-title">团队成员</h2> <!-- 区域标题 -->
+                <div class="team-grid"> <!-- 团队成员网格容器，使用网格布局展示多个成员 -->
+                    <!-- 团队成员1 -->
+                    <div class="team-member"> <!-- 团队成员卡片容器 -->
+                        <div class="member-photo" style="background-image: url('images/chien.png'); background-size: cover; background-position: center;"></div> <!-- 成员照片区域 -->
+                        <h3>孙紫晨</h3> <!-- 成员姓名 -->
+                        <p>组长 & 技术人员</p> <!-- 成员职位 -->
+                        <p>性格比较内向，善于倾听，平时喜欢看小说、追综艺，在团队中负责统筹协调</p> <!-- 成员简介 -->
+                    </div>
+                    
+                    <!-- 团队成员2 -->
+                    <div class="team-member"> <!-- 团队成员卡片容器 -->
+                        <div class="member-photo" style="background-image: url('images/lc.png'); background-size: cover; background-position: center;"></div> <!-- 成员照片区域 -->
+                        <h3>李操</h3> <!-- 成员姓名 -->
+                        <p>成员</p> <!-- 成员职位 -->
+                        <p>这里是行走的快乐喷泉、人类社交牛杂碎、互联网冲浪编外选手 ——李操！！</p> <!-- 成员简介 -->
+                    </div>
+                    
+                    <!-- 团队成员3 -->
+                    <div class="team-member"> <!-- 团队成员卡片容器 -->
+                        <div class="member-photo" style="background-image: url('images/ch.png'); background-size: cover; background-position: center;"></div> <!-- 成员照片区域 -->
+                        <h3>陈涵</h3> <!-- 成员姓名 -->
+                        <p>成员</p> <!-- 成员职位 -->
+                        <p>人送外号-行走的火锅，因为本人热情似火，包容性强！还有点麻~。</p> <!-- 成员简介 -->
+                    </div>
+                    
+                    <!-- 团队成员4 -->
+                    <div class="team-member"> <!-- 团队成员卡片容器 -->
+                        <div class="member-photo" style="background-image: url('images/hyx.png'); background-size: cover; background-position: center;"></div> <!-- 成员照片区域 -->
+                        <h3>韩雨欣</h3> <!-- 成员姓名 -->
+                        <p>成员</p> <!-- 成员职位 -->
+                        <p>性格外向开朗，喜欢和他人沟通交流，同时善于倾听他人想法，对工作负责、热爱工作</p> <!-- 成员简介 -->
+                    </div>
+                    
+                    <!-- 团队成员5 -->
+                    <div class="team-member"> <!-- 团队成员卡片容器 -->
+                        <div class="member-photo" style="background-image: url('images/hcl.png'); background-size: cover; background-position: center;"></div> <!-- 成员照片区域 -->
+                        <h3>韩长莉</h3> <!-- 成员姓名 -->
+                        <p>成员</p> <!-- 成员职位 -->
+                        <p>性格开朗外向，热爱与人交流。善于倾听与表达，喜欢结交新朋友，分享有趣的想法和经验</p> <!-- 成员简介 -->
+                    </div>
+                    
+                    <!-- 团队成员6 -->
+                    <div class="team-member"> <!-- 团队成员卡片容器 -->
+                        <div class="member-photo" style="background-image: url('images/zly.png'); background-size: cover; background-position: center;"></div> <!-- 成员照片区域 -->
+                        <h3>朱琳颖</h3> <!-- 成员姓名 -->
+                        <p>成员</p> <!-- 成员职位 -->
+                        <p>天生社牛超活泼！爱学习、听歌、剧本杀，在队里负责产品优化等细节把控！</p> <!-- 成员简介 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚区域 -->
+    <footer> <!-- 网站页脚 -->
+        <div class="footer-content"> <!-- 页脚内容容器 -->
+            <div class="footer-logo"> <!-- 页脚Logo区域 -->
+                <h3>对对队</h3> <!-- 页脚标题 -->
+                <p>创新、专业、卓越</p> <!-- 页脚口号 -->
+            </div>
+            <div class="footer-links"> <!-- 页脚链接区域 -->
+                <h4>快速链接</h4> <!-- 快速链接标题 -->
+                <ul> <!-- 无序列表，包含页脚导航链接 -->
+                    <li><a href="#home">首页</a></li> <!-- 首页链接 -->
+                    <li><a href="#about">关于我们</a></li> <!-- 关于我们链接 -->
+                    <li><a href="#team">团队成员</a></li> <!-- 团队成员链接 -->
+                </ul>
+            </div>
+            <div class="footer-social"> <!-- 页脚社交媒体区域 -->
+                <h4>关注我们</h4> <!-- 社交媒体标题 -->
+                <div class="social-icons"> <!-- 社交图标容器 -->
+                    <a href="#" class="social-icon">微博</a> <!-- 微博链接 -->
+                    <a href="#" class="social-icon">微信</a> <!-- 微信链接 -->
+                    <a href="#" class="social-icon">知乎</a> <!-- 知乎链接 -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom"> <!-- 页脚底部区域 -->
+            <p>&copy; 2023 对对队 (DDD). 保留所有权利。</p> <!-- 版权信息 -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- 引入JavaScript脚本文件 -->
+</body> <!-- 网页主体内容结束 -->
+</html> <!-- HTML文档结束 -->
